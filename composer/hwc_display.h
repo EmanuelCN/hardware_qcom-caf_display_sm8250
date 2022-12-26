@@ -269,8 +269,6 @@ class HWCDisplay : public DisplayEventHandler {
     return false;
   }
 
-  virtual void updateRefreshRateHint() {};
-
   virtual bool VsyncEnablePending() {
     return false;
   }
